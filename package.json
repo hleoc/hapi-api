@@ -1,0 +1,33 @@
+{
+  "name": "hapi-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "boom": "^4.3.1",
+    "good": "^7.3.0",
+    "good-console": "^6.4.1",
+    "good-file": "^6.0.1",
+    "good-squeeze": "^4.0.0",
+    "hapi": "^16.8.4",
+    "hapi-auth-jwt2": "^7.4.0",
+    "hapi-swagger": "^7.2.0",
+    "inert": "^4.0.2",
+    "joi": "^13.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.20",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
